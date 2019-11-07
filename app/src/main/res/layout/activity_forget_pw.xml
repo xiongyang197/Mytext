@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.ForgetPWActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        >
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="48dp"
+            android:layout_height="47dp"
+            app:srcCompat="?attr/homeAsUpIndicator" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25dp"
+            android:layout_marginLeft="110dp"
+            android:text="找回密码" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lowblue"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:inputType="phone"
+            android:hint="手机号"
+            android:textColor="@color/colorhui"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lowblue"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/editTextPwd"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="验证码"
+            android:textColor="@color/colorhui"/>
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:text="获取验证码"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/shape"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="119dp"
+            tools:layout_editor_absoluteY="296dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lowblue"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:text="设置新密码" />
+        <EditText
+            android:id="@+id/editTextnewPwd"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="请设置6至10位密码"
+            android:textColor="@color/colorhui"/>
+        <EditText
+            android:id="@+id/editTextnewPwd2"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="确认密码"
+            android:textColor="@color/colorhui"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="327dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:text="完成"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/shape"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="119dp"
+            tools:layout_editor_absoluteY="296dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lowblue"
+        android:orientation="vertical"></LinearLayout>
+
+</LinearLayout>

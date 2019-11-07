@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        >
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="48dp"
+            android:layout_height="47dp"
+            app:srcCompat="?attr/homeAsUpIndicator" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="6dp"
+            android:textSize="25dp"
+            android:layout_marginLeft="110dp"
+            android:text="用户登陆" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lowblue"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="48dp"
+            android:layout_height="47dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="120dp"
+            app:srcCompat="@drawable/log1" />
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="20dp"
+            android:inputType="phone"
+            android:hint="用户名/手机号"
+            android:textColor="@color/colorhui"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lowblue"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="48dp"
+            android:layout_marginLeft="50dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/log2" />
+
+        <EditText
+            android:id="@+id/editTextPwd"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="密码"
+            android:textColor="@color/colorhui"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lowblue"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="280dp"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:text="忘记密码?" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="327dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:text="登陆"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/shape"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="119dp"
+            tools:layout_editor_absoluteY="296dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lowblue"
+        android:orientation="vertical"></LinearLayout>
+
+</LinearLayout>

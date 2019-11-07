@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.Register2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        >
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="48dp"
+            android:layout_height="47dp"
+            app:srcCompat="?attr/homeAsUpIndicator" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="6dp"
+            android:text="注册" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lowblue"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:text="设置密码" />
+        <EditText
+            android:id="@+id/editTextnewPwd"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="请设置6至10位密码"
+            android:textColor="@color/colorhui"/>
+        <EditText
+            android:id="@+id/editTextnewPwd2"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="确认密码"
+            android:textColor="@color/colorhui"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lowblue"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:text="我已阅读并同意用户协议" />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="327dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:text="完成"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/shape"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="119dp"
+            tools:layout_editor_absoluteY="296dp" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="150dp"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:text="用户协议" />
+    </LinearLayout>
+
+</LinearLayout>
